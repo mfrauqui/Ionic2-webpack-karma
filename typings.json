@@ -1,0 +1,24 @@
+{
+  "name": "ionic-hello-world",
+  "dependencies": {},
+  "globalDependencies": {
+    "jasmine": "registry:dt/jasmine#2.5.0+20161003201800",
+    "node": "registry:env/node#6.0.0+20161019193037"
+  }
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+     "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true,
+       "removeComments": false,
+           "sourceMap": true,
+    "target": "es5"
+},
+"exclude": [
+    "node_modules",
+    "typings/main",
+    "typings/main.d.ts"
+]
+}
